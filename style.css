@@ -1,0 +1,13 @@
+
+body{margin:0;font-family:Arial,sans-serif;background:#fff;color:#222}
+.wrap{max-width:1200px;margin:auto;display:flex;justify-content:space-between;align-items:center;padding:20px}
+header{background:#05111f;color:#fff}
+nav a{color:#fff;text-decoration:none;margin-left:20px}
+.hero{height:70vh;background:linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),url('https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=1400&q=80');background-size:cover;background-position:center;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff}
+.overlay h1{font-size:4rem;margin:0}
+.btn{background:#0b6cff;color:#fff;padding:14px 22px;text-decoration:none;border-radius:4px}
+.section{max-width:1200px;margin:auto;padding:60px 20px}
+.dark{background:#05111f;color:#fff;max-width:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{padding:30px;border:1px solid #ddd;text-align:center}
+footer{background:#000;color:#fff;text-align:center;padding:20px}
