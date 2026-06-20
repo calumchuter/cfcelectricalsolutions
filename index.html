@@ -1,99 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CFC Electrical Solutions</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#222;
+line-height:1.6;
+}
+
+/* HERO */
+
+.hero{
+background:linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75));
+padding:80px 20px;
+text-align:center;
+color:white;
+}
+
+.hero img{
+width:220px;
+max-width:80%;
+margin-bottom:30px;
+}
+
+.hero h1{
+font-size:3rem;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.2rem;
+max-width:900px;
+margin:auto;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+background:#0a84ff;
+color:white;
+padding:15px 35px;
+border-radius:8px;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* SECTIONS */
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:50px;
+}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.card h3{
+color:#0a84ff;
+margin-bottom:15px;
+}
+
+/* ABOUT */
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:12px;
+}
+
+/* GALLERY */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+height:280px;
+object-fit:cover;
+border-radius:10px;
+transition:.3s;
+}
+
+.gallery img:hover{
+transform:scale(1.03);
+}
+
+/* CONTACT */
+
+.contact{
+background:#111827;
+color:white;
+text-align:center;
+}
+
+.contact h2{
+margin-bottom:20px;
+}
+
+.contact p{
+margin:10px 0;
+font-size:1.1rem;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.hero h1{
+font-size:2rem;
+}
+
+.about{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+
 <section class="hero">
-    <h1>CFC Electrical Solutions</h1>
-    <p>
-        Commercial • Industrial • Domestic Electrical Contractors
-    </p>
 
-    <div class="hero-buttons">
-        <a href="tel:YOURNUMBER" class="btn">Call Now</a>
-        <a href="#contact" class="btn btn-outline">Free Quote</a>
-    </div>
+<img src="45329B1F-7D9D-40A0-93FC-CA05056D686B.png" alt="CFC Electrical Solutions">
+
+<h1>CFC Electrical Solutions</h1>
+
+<p>
+Commercial, Industrial & Domestic Electrical Contractors.
+Professional installations, testing, maintenance and fault finding across the UK.
+</p>
+
+<a href="#contact" class="btn">Get A Quote</a>
+
 </section>
 
-<section class="trust-bar">
-    <div>✓ NAPIT Registered</div>
-    <div>✓ Fully Insured</div>
-    <div>✓ Free Quotations</div>
-    <div>✓ UK Coverage</div>
+<!-- SERVICES -->
+
+<section>
+
+<h2 class="section-title">Our Services</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>Commercial Installations</h3>
+<p>Power distribution, lighting systems, containment and maintenance.</p>
+</div>
+
+<div class="card">
+<h3>Industrial Electrical</h3>
+<p>Control panels, machinery supplies, cable installation and upgrades.</p>
+</div>
+
+<div class="card">
+<h3>Consumer Units</h3>
+<p>Fuse board replacements and electrical safety improvements.</p>
+</div>
+
+<div class="card">
+<h3>Testing & Inspection</h3>
+<p>EICRs, certification and compliance reporting.</p>
+</div>
+
+</div>
+
 </section>
 
-<section class="services">
-    <h2>Our Services</h2>
+<!-- ABOUT -->
 
-    <div class="service-grid">
+<section>
 
-        <div class="service-card">
-            <h3>Commercial Installations</h3>
-            <p>Lighting, containment, power distribution and maintenance.</p>
-        </div>
+<h2 class="section-title">About CFC Electrical Solutions</h2>
 
-        <div class="service-card">
-            <h3>Industrial Electrical</h3>
-            <p>Machinery supplies, cable installation and fault finding.</p>
-        </div>
+<div class="about">
 
-        <div class="service-card">
-            <h3>Consumer Units</h3>
-            <p>Fuse board upgrades and electrical safety improvements.</p>
-        </div>
+<div>
 
-        <div class="service-card">
-            <h3>Testing & Inspection</h3>
-            <p>EICRs, certification and compliance reporting.</p>
-        </div>
+<p>
+CFC Electrical Solutions provides high-quality electrical services for commercial, industrial and domestic clients.
+</p>
 
-    </div>
+<br>
+
+<p>
+From electrical installations and control systems to testing and fault finding, we deliver reliable workmanship, safety and compliance on every project.
+</p>
+
+</div>
+
+<img src="IMG_2403.jpeg">
+
+</div>
+
 </section>
 
-<section class="projects">
-    <h2>Commercial Projects</h2>
-    <div class="gallery">
-        <img src="IMG_2395.jpeg">
-        <img src="IMG_2396.jpeg">
-        <img src="IMG_2397.jpeg">
-    </div>
+<!-- PROJECTS -->
 
-    <h2>Distribution Boards</h2>
-    <div class="gallery">
-        <img src="IMG_2398.jpeg">
-        <img src="IMG_2399.jpeg">
-        <img src="IMG_2400.jpeg">
-    </div>
+<section>
 
-    <h2>Industrial Installations</h2>
-    <div class="gallery">
-        <img src="IMG_2401.jpeg">
-        <img src="IMG_2402.jpeg">
-        <img src="IMG_2403.jpeg">
-    </div>
+<h2 class="section-title">Recent Projects</h2>
 
-    <h2>Specialist Electrical Work</h2>
-    <div class="gallery">
-        <img src="IMG_2404.jpeg">
-        <img src="IMG_2405.jpeg">
-    </div>
+<div class="gallery">
+
+<img src="IMG_2395.jpeg">
+<img src="IMG_2396.jpeg">
+<img src="IMG_2397.jpeg">
+
+<img src="IMG_2398.jpeg">
+<img src="IMG_2399.jpeg">
+<img src="IMG_2400.jpeg">
+
+<img src="IMG_2401.jpeg">
+<img src="IMG_2402.jpeg">
+<img src="IMG_2403.jpeg">
+
+<img src="IMG_2404.jpeg">
+<img src="IMG_2405.jpeg">
+
+</div>
+
 </section>
 
-<section class="about">
-    <h2>Why Choose CFC Electrical Solutions?</h2>
-
-    <p>
-        We provide professional electrical services across commercial,
-        industrial and domestic sectors. Our focus is quality workmanship,
-        safety compliance and reliable project delivery.
-    </p>
-</section>
+<!-- CONTACT -->
 
 <section id="contact" class="contact">
-    <h2>Request A Free Quote</h2>
 
-    <p>Call us today for electrical installations, maintenance and testing.</p>
+<h2>Contact Us</h2>
 
-    <a href="tel:07427303507" class="btn">
-        Call Now
-    </a>
+<p>📧 info@cfcelectricalsolutions.com</p>
 
-    <p class="email">
-        info@cfcelectricalsolutions.com
-    </p>
+<p>📞 07XXXXXXXXX</p>
+
+<p>NAPIT Registered Electrical Contractors</p>
+
 </section>
+
+</body>
+</html>
